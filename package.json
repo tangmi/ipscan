@@ -1,0 +1,33 @@
+{
+  "name": "ipscan",
+  "version": "0.0.0",
+  "description": "spam your local subnet to find open ports. it's pretty evil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangmi/ipscan"
+  },
+  "keywords": [
+    "ip",
+    "scanner",
+    "evil"
+  ],
+  "author": "tangmi",
+  "license": "Artistic License 2.0",
+  "bugs": {
+    "url": "https://github.com/tangmi/ipscan/issues"
+  },
+  "homepage": "https://github.com/tangmi/ipscan",
+  "dependencies": {
+    "portscanner": "^0.2.3",
+    "arp-a": "^0.3.0",
+    "yargs": "^1.2.2",
+    "colour": "^0.7.1"
+  },
+  "bin": {
+    "bin": "./bin/ipscan.js"
+  }
+}
