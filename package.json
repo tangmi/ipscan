@@ -25,7 +25,10 @@
     "portscanner": "^0.2.3",
     "arp-a": "^0.3.0",
     "yargs": "^1.2.2",
-    "colour": "^0.7.1"
+    "colour": "^0.7.1",
+    "mac-lookup": "0.0.3",
+    "async": "^0.9.0",
+    "service-names": "0.0.1"
   },
   "bin": {
     "bin": "./bin/ipscan.js"
