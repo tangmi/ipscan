@@ -6,7 +6,7 @@ this is partially an experiment to see how much value i can add to the informati
 
 here are some notable points:
 
-* color coding of results to help users quickly parse whats going on
+* color coding of results to help users quickly parse whats going on (more of a dulling of potentially useful, but likely ignored information)
 * use a vendor lookup on the mac addresses found to provide the user with a little additional information (using an ieee oui lookup)
 * use a service name lookup on the open ports found (using an iana.org lookup)
 
